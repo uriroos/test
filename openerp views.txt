@@ -1,0 +1,44 @@
+View Name
+CRM - Leads Calendar
+View Type
+Calendar
+Object
+crm.lead
+Sequence
+2
+Child Field
+Inherited View
+External ID
+crm.crm_case_calendar_view_leads
+Architecture Groups
+<?xml version="1.0"?>
+<calendar string="Leads Generation" date_start="date_action" color="user_id">
+                    <field name="title_action"/>
+                    <field name="name"/>
+                    <field name="partner_name"/>
+                </calendar>
+				
+
+
+View Name
+project.task.calendar
+View Type
+Calendar
+Object
+project.task
+Sequence
+2
+Child Field
+Inherited View
+External ID
+project.view_task_calendar
+Architecture Groups
+<?xml version="1.0"?>
+<calendar color="user_id" date_start="date_start" date_stop="date_deadline" string="Tasks">
+                    <field name="name"/>
+                    <field name="project_id"/>
+                </calendar>
+				
+
+planned_revenue
+            
